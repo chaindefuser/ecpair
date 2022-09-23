@@ -1,7 +1,7 @@
 {
-  "name": "ecpair",
+  "name": "@bitgo/ecpair",
   "version": "2.0.1",
-  "description": "Client-side Bitcoin JavaScript library ECPair",
+  "description": "Fork of ecpair with BitGo specific changes",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "engines": {
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/ecpair.git"
+    "url": "https://github.com/BitGo/ecpair.git"
   },
   "files": [
     "src"
@@ -78,5 +78,8 @@
     "tslint": "^6.1.3",
     "typescript": "^4.4.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
